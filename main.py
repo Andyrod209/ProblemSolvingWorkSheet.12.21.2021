@@ -11,7 +11,7 @@ user_name = input('What is your full name? ')
 user_name = user_name.title()
 print(user_name)
 
-#  compress a srting of characters
+# 3 compress a srting of characters
 user_choice_of_letters = input('Type as many letters as you want... ')
 # prints the number of times a letter is repeated before it changes to a different letter 
 def compressed(word):
