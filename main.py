@@ -36,4 +36,17 @@ def compressed(word):
         index = index + 1 
     return compress
 
-print(compressed(user_choice_of_letters))
+print(compressed(user_choice_of_letters)) 
+
+# 4 bonus challenge: Palindrome 
+user_input = input('Can you do a Palindrome!? ')
+def is_palindrome(word):
+    # reversing the word
+    reversed_word = word[::-1]
+    # checking if orignal value is the same as the reversed value 
+    if word == reversed_word:
+        print(word, "is a palindrome!")
+    else:
+        print(word, "is not a palindrome :(")
+
+is_palindrome(user_input)
