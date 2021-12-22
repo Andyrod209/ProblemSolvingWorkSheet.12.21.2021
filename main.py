@@ -41,7 +41,7 @@ print(compressed(user_choice_of_letters))
 # 4 bonus challenge: Palindrome 
 user_input = input('Can you do a Palindrome!? ')
 def is_palindrome(word):
-    # reversing the word
+
     reversed_word = word[::-1]
     # checking if orignal value is the same as the reversed value 
     if word == reversed_word:
